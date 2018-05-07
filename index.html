@@ -1,42 +1,55 @@
 <!Doctype <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Fantasy Word Guess </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="assets/javascript/game.js"></script>
 </head>
+
 <body>
-    <div id="main-content">
-        <!--<div id="title-div">
-            <img id="game-title" src="./assets/images/hangman_title.png" alt="Hangman">
-            <div id="helper">Press any key to get started!</div>
-        </div>-->
-        <div id="title">
-  hangman
-        </div>
-
-        <div id="instruction">
-     Press Any key to start
-        </div>
-
-        <div id="game-div" class="panel">
-            <div id="word-display">
-                <p id="word-display-letters"></p>
+    <header>
+        <div id="gamename">Fantasy Word Guess</div>
+    </header>
+    <div class="container">
+        <div class="col-md-6">
+            <div id="title">
+                Guess that word!
             </div>
 
-            <div id="general-display">
-                <span id="guessed-letters">                                                   </span>
-                <p>Stats</p>
-                <p>Incorrect Letters: <span id="error-count"></span></p>
-                <p>Wins: <span id="win-count"></span> |</p>
-                <p>Losses: <span id="loss-count"></span> |</p>
-                
+            <div id="instruction">
+                Press Any key to start
+            </div>
+
+            <div id="game-div" class="panel">
+                <div id="word-display">
+                    <p id="word-display-letters"></p>
+                </div>
+
+                <div id="general-display">
+                    <span id="guessed-letters"> </span>
+                    <p>Stats</p>
+                    <p>Incorrect Letters:
+                        <span id="error-count"></span>
+                    </p>
+                    <p>Wins:
+                        <span id="win-count"></span> |</p>
+                    <p>Losses:
+                        <span id="loss-count"></span> |</p>
+
+                </div>
             </div>
         </div>
+
     </div>
     <script src="assets/javascript/game.js"></script>
+    </div>
+
 </body>
+
 </html>

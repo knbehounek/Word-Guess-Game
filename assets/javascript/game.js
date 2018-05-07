@@ -50,7 +50,11 @@ function Hangman() {
         "dungeon",
         "werewolves",
         "vampires",
-        "Unicorn"
+        "unicorn",
+        "drow",
+        "dwarves",
+        "elves"
+
 	]
 
 	this.word = this.wordList[Math.floor(Math.random() * this.wordList.length)];
