@@ -1,3 +1,25 @@
-body{
+.background{
     background: url("D:/Coding Bootcamp/Word-Guess-Game/assets/images/background-img.png");
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    position: static;
+    top: 0%;
+    height: auto;
+    background-color: black;
+    border-bottom: white solid 3.5px;
+ 
+}
+
+#headerimg{
+    float: left;
+}
+
+#gametitle{
+    right: 900px;
+    font-family: 'Tangerine', cursive;
+    font-size: 65px;
+    color: white;
 }
