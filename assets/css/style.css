@@ -26,7 +26,7 @@ header{
     border: solid black 3px;
     font-family: 'Tangerine', cursive;
     font-size: 35px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ header{
     border: solid black 3px;
     font-family: 'Tangerine', cursive;
     font-size: 25px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ header{
     border: solid black 3px;
     font-family: 'Tangerine', cursive;
     font-size: 25px;
-    color: white;
+    color: black;
     text-align: center;   
 }
 
@@ -50,6 +50,6 @@ header{
     border: solid black 3px;
     font-family: 'Tangerine', cursive;
     font-size: 25px;
-    color: white;
+    color: black;
     text-align: left;
 }
